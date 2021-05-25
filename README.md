@@ -11,7 +11,7 @@ I have used Koin for dependency injection as it is lightweight, suits Kotlin wel
 
 I have used an extension function for getCardDrawable, as this is extendable code that is used in more than one place. 
 
-I have used an extension function to enbolden the title part of the text for each name/value pair after a certain point. This allows us to use one textview rather than two for each name/value pair in the display and highlights the fact that a bit of code can infact be more readable than a bunch of xml.
+I have used an extension function to enbolden the name part of the text for each name/value pair after a certain point. This allows us to use one textview rather than two for each name/value pair in the display and highlights the fact that a bit of code can infact be more readable than a bunch of xml.
 
 I have used a scrollview for the details fragment, as these will not fit on very short screens and when more details are added, all screen will need the scroll functionality.
 
