@@ -7,9 +7,9 @@ import retrofit2.http.GET
 import retrofit2.http.Path
 
 interface BookingsService {
-    @GET("api/bookings")
+    @GET("samdroidpiercy/jptest/main/bookings.json")
     fun getBookings(): Single<GetBookingsResponse>
 
-    @GET("api/booking/{bookingId}")
+    @GET("samdroidpiercy/jptest/main/booking/{bookingId}.json")
     fun getBookingDetails(@Path("bookingId") bookingId: String): Single<GetBookingDetailsResponse>
 }

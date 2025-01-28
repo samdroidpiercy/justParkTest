@@ -12,7 +12,7 @@ val networkModule = module {
 
     single {
             Retrofit.Builder()
-                .baseUrl("https://justpark-hiring-json-api.herokuapp.com/")
+                .baseUrl("https://raw.githubusercontent.com/")
                 .client(get())
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.createWithScheduler(Schedulers.io()))
                 .addConverterFactory(GsonConverterFactory.create())
